@@ -1,0 +1,45 @@
+{
+  "name": "capturelife-photography-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive photography website for wedding, event, drone, and candid photography services",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve . --port 3000",
+    "build": "echo 'Building website...' && echo 'Website is already built and ready for deployment!'",
+    "serve": "python -m http.server 8000",
+    "preview": "serve . --port 8080",
+    "test": "echo 'Testing website structure...' && node test-structure.js"
+  },
+  "keywords": [
+    "photography",
+    "wedding",
+    "drone",
+    "website",
+    "responsive",
+    "modern",
+    "portfolio",
+    "business"
+  ],
+  "author": "Photography Business Owner",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/photography-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/photography-website/issues"
+  },
+  "homepage": "https://yourusername.github.io/photography-website",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 11"
+  ]
+}
